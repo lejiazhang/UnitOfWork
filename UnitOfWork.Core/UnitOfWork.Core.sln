@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.Core", "UnitOfWork.Core\UnitOfWork.Core.csproj", "{4045F6F3-0926-45F6-B6F1-3D7EDE89EE86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Core", "UnitOfWork.Core\UnitOfWork.Core.csproj", "{4045F6F3-0926-45F6-B6F1-3D7EDE89EE86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.EFCore", "UnitOfWork.EFCore\UnitOfWork.EFCore.csproj", "{B0EA327B-B677-42BF-A2D5-3FB57B463B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.EFCore", "UnitOfWork.EFCore\UnitOfWork.EFCore.csproj", "{B0EA327B-B677-42BF-A2D5-3FB57B463B7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitOfWork.WebApiCore", "UnitOfWork.WebApiCore\UnitOfWork.WebApiCore.csproj", "{FF7C3CD2-B3F0-4CD0-AF12-5794AA0DDA2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.WebApiCore", "UnitOfWork.WebApiCore\UnitOfWork.WebApiCore.csproj", "{FF7C3CD2-B3F0-4CD0-AF12-5794AA0DDA2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Sample.Domain", "UnitOfWork.Sample.Domain\UnitOfWork.Sample.Domain.csproj", "{BD4B9B9F-B9DB-4D54-9103-CEB7B5820C4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Sample.DataAccess", "UnitOfWork.Sample.DataAccess\UnitOfWork.Sample.DataAccess.csproj", "{24F67DAC-91EB-40CD-B21A-D3BEA44E5AEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Sample.IoC", "UnitOfWork.Sample.IoC\UnitOfWork.Sample.IoC.csproj", "{C02ADA4D-423F-4FFF-9769-49EFD4A998F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Sample.Services", "UnitOfWork.Sample.Services\UnitOfWork.Sample.Services.csproj", "{E70D23A0-C8A7-4759-AD13-DEC31432CB58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitOfWork.Sample.WebApi", "UnitOfWork.Sample.WebApi\UnitOfWork.Sample.WebApi.csproj", "{E2AD2724-AE4F-4C97-A9BD-F6B858AEE69E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{FF7C3CD2-B3F0-4CD0-AF12-5794AA0DDA2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7C3CD2-B3F0-4CD0-AF12-5794AA0DDA2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7C3CD2-B3F0-4CD0-AF12-5794AA0DDA2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4B9B9F-B9DB-4D54-9103-CEB7B5820C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4B9B9F-B9DB-4D54-9103-CEB7B5820C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4B9B9F-B9DB-4D54-9103-CEB7B5820C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4B9B9F-B9DB-4D54-9103-CEB7B5820C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F67DAC-91EB-40CD-B21A-D3BEA44E5AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F67DAC-91EB-40CD-B21A-D3BEA44E5AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F67DAC-91EB-40CD-B21A-D3BEA44E5AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F67DAC-91EB-40CD-B21A-D3BEA44E5AEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C02ADA4D-423F-4FFF-9769-49EFD4A998F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C02ADA4D-423F-4FFF-9769-49EFD4A998F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C02ADA4D-423F-4FFF-9769-49EFD4A998F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C02ADA4D-423F-4FFF-9769-49EFD4A998F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70D23A0-C8A7-4759-AD13-DEC31432CB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70D23A0-C8A7-4759-AD13-DEC31432CB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E70D23A0-C8A7-4759-AD13-DEC31432CB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70D23A0-C8A7-4759-AD13-DEC31432CB58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2AD2724-AE4F-4C97-A9BD-F6B858AEE69E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2AD2724-AE4F-4C97-A9BD-F6B858AEE69E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2AD2724-AE4F-4C97-A9BD-F6B858AEE69E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2AD2724-AE4F-4C97-A9BD-F6B858AEE69E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

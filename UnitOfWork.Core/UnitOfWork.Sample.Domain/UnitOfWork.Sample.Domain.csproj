@@ -2,9 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <Authors>Martin Zhang</Authors>
-    <Description>UnitOfWork for .NET Core practice.</Description>
-    <PackageReleaseNotes />
   </PropertyGroup>
 
 </Project>
