@@ -26,7 +26,6 @@
             };
 
             _uow.DataProvider.Articles.Add(dbArticle);
-            _uow.SaveChanges();
         }
 
         public List<Article> GetAllArticles()

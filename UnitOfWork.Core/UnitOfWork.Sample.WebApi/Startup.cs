@@ -40,7 +40,10 @@
 
             services.AddTransient<IArticleService, ArticleService>();
 
-
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,7 +58,6 @@
                 app.UseHsts();
             }
 
-
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
 
@@ -67,7 +69,6 @@
             });
 
 
-            // app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
